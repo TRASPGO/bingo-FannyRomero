@@ -1,4 +1,6 @@
-
+@media(max-height:700px)
+{
+  
   * {
     margin: 0;
     padding: 0;
@@ -43,10 +45,10 @@ h1  {
     color: #ddd;
     width: 180px;
     text-align: center;
-    font-size: 100px;
-    padding: 40px 0;
+    font-size: 150px;
+    padding: 20px 0;
     line-height: 100%;
-    text-shadow: -1px -1px 1px black;
+    font-weight: bolder;
   }
 
 .roulette_area {
@@ -204,4 +206,216 @@ grid-column: 2/3;
     padding-top: 10px;
     font-weight: bold;
     font-size: 1.8rem;
+  }
+}
+@media (min-height:700px)  {
+    
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+body {
+  background-image: radial-gradient(circle at 120.71% 50%, #ff9ad1 0, #ff91cc 25%, #ff88c5 50%, #e77fbd 75%, #d077b5 100%);
+  width: 100%;
+    /* overflow: hidden; */
+  }
+h1  {
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: center;
+    font-size: 2rem;
+}
+ .roulette_area {
+   height: 13rem;
+   transform: translateY(-17px);
+  }
+.roulette {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.container .roulette_area .roulette:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+   }
+  .container .roulette_area .roulette li .wrapper {
+    top: 0;
+    left: 0;
+  } 
+  .container .roulette_area .roulette li .wrapper div {
+    position: absolute;
+    color: #ddd;
+    width: 180px;
+    text-align: center;
+    font-size: 150px;
+    padding: 15px 0;
+    line-height: 100%;
+    font-weight: bold;
+  }
+
+.roulette_area {
+  margin-top: 2rem;
+}
+   ol, ul {
+    list-style: none;
+  }
+  .btn_start  {
+    transform: translateY(40px);
+    display: block;
+    border-top: 5px solid white;
+    cursor: pointer;
+    color: white;
+    margin: 0 auto;
+    padding: 5px 50px;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 40vw;
+    transition-timing-function: linear;
+    transition: padding 1s;
+    background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
+  }
+  .btn_start:hover  {
+    padding: 5px 100px ;
+    background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
+  }  
+  a{
+    width: 100%;
+    
+    padding: 0 150px 0 150px;
+  }
+
+  .roulette{
+    display: flex;
+    justify-content: center;
+    transform: translateY(30px);
+  }
+  /* .board_area ul  {
+    width: 100vw;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: repeat(5,100px);
+  } */
+  .board_area {
+    display: block;
+    width: 70%;
+    margin: 5rem auto;
+  }
+  .board_area ul  {
+    display:grid;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(5,60px); 
+  
+}
+.board_area ul li  {
+  width: 100%;
+   display: grid;
+   text-align: center;
+   grid-template-rows: 50px;
+  grid-auto-flow: row; 
+  grid-template-columns: repeat(16,60px);
+}
+.board_area ul li p {
+  padding-top: 15px;
+  margin-top: 2px;
+  background-image: radial-gradient(circle at 120.71% 50%, #e02385 0, #e02385 50%, #e02385 100%);
+  color: white;
+  font-size: 1.3rem;
+}
+.board_area ul li p:first-child {
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 1.6rem;
+  padding-top: 10px;
+  margin-top: 0;
+  
+  border: 4px solid wheat   ;
+}
+.head{
+  background-color: #3423a9;
+}
+/* .board_area ul li:first-child  {
+grid-column: 2/3;
+} */
+  /* line 30, ../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q, blockquote {
+    quotes: none;
+  }
+  /* line 103, ../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+  }
+  
+  /* line 32, ../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  a img {
+    border: none;
+  }
+  .container .roulette_area .roulette li {
+    position: relative;
+    width: 178px;
+    height: 180px;
+    border: none;
+    margin-left: 10px;
+    overflow: hidden;
+    background-image: radial-gradient(circle at 120.71% 50%, #680e71 0, #540966 25%, #400459 50%, #2c014c 75%, #1b0040 100%);
+    border-radius: 5px;
+  }
+  /* line 116, ../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+  }
+  
+  /* line 11, ../sass/style.scss */
+ 
+  
+  /* line 19, ../sass/style.scss */
+  #header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+  }
+  /* line 25, ../sass/style.scss */
+  #header h1 {
+    text-align: center;
+    color: #000000;
+    transform: translateY(5px);
+    font-size: 3rem;
+    font-family: 'Akaya Telivigala', cursive;
+  }
+  
+  /* line 35, ../sass/style.scss */
+  .btn_reset {
+    color: rgb(255, 255, 255);
+    border-top: 5px solid white;  
+    cursor: pointer;
+    padding:  10px 50px 10px 50px;
+    font-size: 1rem;
+    text-align: center;
+    width: 50vw;
+    transform: translateY(-60px);
+    transition: background 1s;
+  }
+  .btn_reset:hover    {
+      background-color: white;
+      color: black;
+  }
+  /* line 136, ../sass/style.scss */
+
+  /* line 146, ../sass/style.scss */
+  .container .board_area ul li .selected {
+    background-image: radial-gradient(circle at 50% -20.71%, #ff0051 0, #ff0051 50%, #ff0051 100%);
+    color: white;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
   }
