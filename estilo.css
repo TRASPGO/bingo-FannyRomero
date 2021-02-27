@@ -116,11 +116,12 @@ h1  {
   margin-top: 2px;
   background-image: radial-gradient(circle at 120.71% 50%, #e02385 0, #e02385 50%, #e02385 100%);
   color: white;
+  font-size: 1.3rem;
 }
 .board_area ul li p:first-child {
   color: whitesmoke;
   font-weight: bolder;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   padding-top: 10px;
   margin-top: 0;
   
@@ -200,6 +201,7 @@ grid-column: 2/3;
   .container .board_area ul li .selected {
     background-image: radial-gradient(circle at 50% -20.71%, #ff0051 0, #ff0051 50%, #ff0051 100%);
     color: white;
+    padding-top: 10px;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
   }
