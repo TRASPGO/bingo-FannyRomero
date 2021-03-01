@@ -21,7 +21,6 @@ h1  {
  .roulette_area {
    height: 13rem;
    transform: translateY(-17px);
-   border: 2px solid white;
    width: 80vw;
   }
 .roulette {
