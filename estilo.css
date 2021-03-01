@@ -1,4 +1,4 @@
-@media screen and (max-height:700px) and (max-width:400px)  {
+@media screen and (max-height:800px) and (max-width:500px)  {
   * {
     margin: 0;
     padding: 0;
@@ -9,19 +9,19 @@
   }
 body {
   background-image: radial-gradient(circle at 120.71% 50%, #ff9ad1 0, #ff91cc 25%, #ff88c5 50%, #e77fbd 75%, #d077b5 100%);
-  width: 100%;
+  width: 100vw;
     /* overflow: hidden; */
   }
 h1  {
     color: white;
     font-family: 'Akaya Telivigala', cursive;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
  .roulette_area {
    height: 13rem;
    transform: translateY(-17px);
-   width: 80vw;
+   width: 97vw;
   }
 .roulette {
   width: 100%;
@@ -43,12 +43,17 @@ h1  {
     color: #ddd;
     box-sizing: border-box;
     position: absolute;
-    width: 20%;
+    width: 30%;
     text-align: center;
     font-size: 120px;
-    padding: 20px 7px;
+    padding: 20% 18%;
     font-weight: bolder;
+    padding-right: 10px;
   }
+  .container .roulette_area .roulette li .wrapper:first- {
+    transform: translateX(-10px);
+  }
+
 
 .roulette_area {
   margin-top: 2rem;
@@ -63,18 +68,14 @@ h1  {
     cursor: pointer;
     color: white;
     margin: 0 auto;
-    padding: 5px 50px;
     text-align: center;
-    font-size: 1.4rem;
-    width: 40vw;
-    transition-timing-function: linear;
-    transition: padding 1s;
+    font-size: 1.5rem;
+    width: 100vw;
     background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
+  } 
+  .btn_start a  {
+    padding: 0;
   }
-  .btn_start:hover  {
-    padding: 5px 100px ;
-    background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
-  }  
   a{
     width: 100%;
     
@@ -94,12 +95,11 @@ h1  {
   } */
   .board_area {
     display: block;
-    width: 50%;
+    width: 100%;
     margin: 2rem auto;
   }
   .board_area ul  {
     display:grid;
-    margin-left: 1rem;
     grid-auto-flow: row;
     grid-template-rows: repeat(5,60px); 
   
@@ -110,19 +110,19 @@ h1  {
    text-align: center;
    grid-template-rows: 50px;
   grid-auto-flow: row; 
-  grid-template-columns: repeat(16,40px);
+  grid-template-columns: repeat(16,6.25%);
 }
 .board_area ul li p {
-  padding-top: 15px;
   margin-top: 2px;
+  padding-top: 20px;
   background-image: radial-gradient(circle at 120.71% 50%, #e02385 0, #e02385 50%, #e02385 100%);
   color: white;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .board_area ul li p:first-child {
   color: whitesmoke;
   font-weight: bolder;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   padding-top: 10px;
   margin-top: 0;
   
@@ -176,7 +176,8 @@ grid-column: 2/3;
   #header h1 {
     text-align: center;
     color: #000000;
-    font-size: 2.2rem;
+    padding-top: 2%;
+    font-size: 1.8rem;
     font-family: 'Akaya Telivigala', cursive;
   }
   
@@ -207,7 +208,7 @@ grid-column: 2/3;
     font-size: 1.8rem;
   }
 }
-@media(max-height:700px) and (min-width:400px)
+@media(max-height:800px) and (min-width:500px)
 {
   * {
     margin: 0;
