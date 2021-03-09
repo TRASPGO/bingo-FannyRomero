@@ -155,7 +155,7 @@ grid-column: 2/3;
     border: none;
     margin-left: 10px;
     overflow: hidden;
-    background-image: radial-gradient(circle at 120.71% 50%, #680e71 0, #540966 25%, #400459 50%, #2c014c 75%, #1b0040 100%);
+    background-image: radial-gradient(circle at 50% 45.08%, #5e0b88 0, #5e0b88 50%, #5e0b88 100%);
     border-radius: 5px;
   }
   /* line 116, ../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
@@ -251,7 +251,7 @@ h1  {
   } 
   .container .roulette_area .roulette li .wrapper div {
     position: absolute;
-    color: #ddd;
+    color: rgb(255, 255, 255);
     width: 180px;
     text-align: center;
     font-size: 150px;
@@ -365,7 +365,7 @@ grid-column: 2/3;
     border: none;
     margin-left: 10px;
     overflow: hidden;
-    background-image: radial-gradient(circle at 120.71% 50%, #680e71 0, #540966 25%, #400459 50%, #2c014c 75%, #1b0040 100%);
+    background-image: radial-gradient(circle at 50% 45.08%, #5e0b88 0, #5e0b88 50%, #5e0b88 100%);
     border-radius: 5px;
   }
   /* line 116, ../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
@@ -428,9 +428,7 @@ grid-column: 2/3;
     vertical-align: baseline;
   }
 body {
-  background-image: radial-gradient(circle at 120.71% 50%, #ff9ad1 0, #ff91cc 25%, #ff88c5 50%, #e77fbd 75%, #d077b5 100%);
-  width: 100%;
-    /* overflow: hidden; */
+  background-image: radial-gradient(circle at 50% 45.08%, #ff4dde 0, #ff4dde 50%, #ff4dde 100%);    /* overflow: hidden; */
   }
 h1  {
     color: white;
@@ -451,7 +449,6 @@ h1  {
     content: "\0020";
     display: block;
     height: 0;
-    clear: both;
     overflow: hidden;
     visibility: hidden;
    }
@@ -461,12 +458,11 @@ h1  {
   } 
   .container .roulette_area .roulette li .wrapper div {
     position: absolute;
-    color: #ddd;
+    color: rgb(255, 255, 255);
     width: 180px;
     text-align: center;
     font-size: 150px;
     padding: 15px 0;
-    line-height: 100%;
     font-weight: bold;
   }
 
@@ -489,8 +485,8 @@ h1  {
     width: 40vw;
     transition-timing-function: linear;
     transition: padding 1s;
-    background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
-  }
+    background-image: radial-gradient(circle at 50% 45.08%, #81088e 0, #81088e 50%, #81088e 100%);
+ }
   .btn_start:hover  {
     padding: 5px 100px ;
     background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
@@ -535,18 +531,19 @@ h1  {
 .board_area ul li p {
   padding-top: 15px;
   margin-top: 2px;
-  background-image: radial-gradient(circle at 120.71% 50%, #e02385 0, #e02385 50%, #e02385 100%);
-  color: white;
+  background: rgb(251, 211, 255);
+  color: rgb(7, 7, 7);
+  font-weight: bolder;
   font-size: 1.3rem;
 }
 .board_area ul li p:first-child {
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   font-weight: bolder;
   font-size: 1.6rem;
   padding-top: 10px;
   margin-top: 0;
   
-  border: 4px solid wheat   ;
+  border: 4px solid rgb(22, 0, 19)   ;
 }
 .head{
   background-color: #3423a9;
@@ -575,8 +572,8 @@ grid-column: 2/3;
     border: none;
     margin-left: 10px;
     overflow: hidden;
-    background-image: radial-gradient(circle at 120.71% 50%, #680e71 0, #540966 25%, #400459 50%, #2c014c 75%, #1b0040 100%);
-    border-radius: 5px;
+    background-image: radial-gradient(circle at 50% 45.08%, #5e0b88 0, #5e0b88 50%, #5e0b88 100%);
+     border-radius: 5px;
   }
   /* line 116, ../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
@@ -621,7 +618,7 @@ grid-column: 2/3;
 
   /* line 146, ../sass/style.scss */
   .container .board_area ul li .selected {
-    background-image: radial-gradient(circle at 50% -20.71%, #ff0051 0, #ff0051 50%, #ff0051 100%);
+    
     color: white;
     padding-top: 10px;
     font-weight: bold;
