@@ -71,7 +71,7 @@ h1  {
     text-align: center;
     font-size: 1.5rem;
     width: 100vw;
-    background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
+    background-image: radial-gradient(circle at 50% 45.08%, #81088e 0, #81088e 50%, #81088e 100%);
   } 
   .btn_start a  {
     padding: 0;
@@ -115,18 +115,18 @@ h1  {
 .board_area ul li p {
   margin-top: 2px;
   padding-top: 20px;
-  background-image: radial-gradient(circle at 120.71% 50%, #e02385 0, #e02385 50%, #e02385 100%);
-  color: white;
+  background: rgb(251, 211, 255);
+  color: rgb(0, 0, 0);
   font-size: 1rem;
 }
 .board_area ul li p:first-child {
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   font-weight: bolder;
   font-size: 1.2rem;
   padding-top: 10px;
   margin-top: 0;
   
-  border: 4px solid wheat   ;
+  border: 4px solid rgb(22, 0, 19)   ;
 }
 .head{
   background-color: #3423a9;
@@ -279,8 +279,7 @@ h1  {
     width: 40vw;
     transition-timing-function: linear;
     transition: padding 1s;
-    background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
-  }
+    background-image: radial-gradient(circle at 50% 45.08%, #81088e 0, #81088e 50%, #81088e 100%);  }
   .btn_start:hover  {
     padding: 5px 100px ;
     background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
@@ -325,18 +324,19 @@ h1  {
 .board_area ul li p {
   padding-top: 15px;
   margin-top: 2px;
-  background-image: radial-gradient(circle at 120.71% 50%, #e02385 0, #e02385 50%, #e02385 100%);
-  color: white;
+  font-weight: bolder;
+  background: rgb(251, 211, 255);
+  color: rgb(0, 0, 0);
   font-size: 1.3rem;
 }
 .board_area ul li p:first-child {
-  color: whitesmoke;
+  color: black;
   font-weight: bolder;
   font-size: 1.6rem;
   padding-top: 10px;
   margin-top: 0;
   
-  border: 4px solid wheat   ;
+  border: 4px solid rgb(22, 0, 19)   ;
 }
 .head{
   background-color: #3423a9;
@@ -618,7 +618,6 @@ grid-column: 2/3;
 
   /* line 146, ../sass/style.scss */
   .container .board_area ul li .selected {
-    
     color: white;
     padding-top: 10px;
     font-weight: bold;
