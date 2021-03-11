@@ -224,10 +224,14 @@ body {
     /* overflow: hidden; */
   }
 h1  {
-    color: white;
-    font-family: 'Akaya Telivigala', cursive;
-    text-align: center;
-    font-size: 2rem;
+  color: white;
+  font-family: 'Akaya Telivigala', cursive;
+  text-align: center;
+  font-size: 2rem;
+  -webkit-color: white;
+  -webkit-font-family: 'Akaya Telivigala', cursive;
+  -webkit-text-align: center;
+  -webkit-font-size: 2rem;
 }
  .roulette_area {
    height: 13rem;
@@ -238,12 +242,18 @@ h1  {
   height: 100%;
 }
 .container .roulette_area .roulette:after {
-    content: "\0020";
-    display: block;
-    height: 0;
-    clear: both;
-    overflow: hidden;
-    visibility: hidden;
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-content: "\0020";
+  -webkit-display: block;
+  -webkit-height: 0;
+  -webkit-clear: both;
+  -webkit-overflow: hidden;
+  -webkit-visibility: hidden;
    }
   .container .roulette_area .roulette li .wrapper {
     top: 0;
@@ -258,6 +268,14 @@ h1  {
     padding: 20px 0;
     line-height: 100%;
     font-weight: bolder;
+    -webkit-position: absolute;
+    -webkit-color: rgb(255, 255, 255);
+    -webkit-width: 180px;
+    -webkit-text-align: center;
+    -webkit-font-size: 150px;
+    -webkit-padding: 20px 0;
+    -webkit-line-height: 100%;
+    -webkit-font-weight: bolder;
   }
 
 .roulette_area {
@@ -279,10 +297,28 @@ h1  {
     width: 40vw;
     transition-timing-function: linear;
     transition: padding 1s;
-    background-image: radial-gradient(circle at 50% 45.08%, #81088e 0, #81088e 50%, #81088e 100%);  }
+    background-image: radial-gradient(circle at 50% 45.08%, #81088e 0, #81088e 50%, #81088e 100%);  
+    
+    -webkit-transform: translateY(-10px);
+    -webkit-display: block;
+    -webkit-border-top: 5px solid white;
+    -webkit-cursor: pointer;
+    -webkit-color: white;
+    -webkit-margin: 0 auto;
+    -webkit-padding: 5px 50px;
+    -webkit-text-align: center;
+    -webkit-font-size: 1.4rem;
+    -webkit-width: 40vw;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition: padding 1s;
+    -webkit-background-image: radial-gradient(circle at 50% 45.08%, #81088e 0, #81088e 50%, #81088e 100%);
+  
+  }
   .btn_start:hover  {
     padding: 5px 100px ;
     background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
+    -webkit-padding: 5px 100px ;
+    -webkit-background-image: radial-gradient(circle at -4.17% 95.45%, #ff26f6 0, #ef29ef 16.67%, #cb2ae4 33.33%, #a629d6 50%, #8127c6 66.67%, #5c25b7 83.33%, #3423a9 100%);
   }  
   a{
     width: 100%;
@@ -305,12 +341,19 @@ h1  {
     display: block;
     width: 50%;
     margin: 2rem auto;
+    -webkit-display: block;
+    -webkit-width: 50%;
+    -webkit-margin: 2rem auto;
   }
   .board_area ul  {
     display:grid;
     margin-left: 1rem;
     grid-auto-flow: row;
     grid-template-rows: repeat(5,60px); 
+    -webkit-display:grid;
+    -webkit-margin-left: 1rem;
+    -webkit-grid-auto-flow: row;
+    -webkit-grid-template-rows: repeat(5,60px); 
   
 }
 .board_area ul li  {
@@ -320,6 +363,12 @@ h1  {
    grid-template-rows: 50px;
   grid-auto-flow: row; 
   grid-template-columns: repeat(16,40px);
+  -webkit-width: 100%;
+   -webkit-display: grid;
+   -webkit-text-align: center;
+   -webkit-grid-template-rows: 50px;
+  -webkit-grid-auto-flow: row; 
+  -webkit-grid-template-columns: repeat(16,40px);
 }
 .board_area ul li p {
   padding-top: 15px;
@@ -328,6 +377,12 @@ h1  {
   background: rgb(251, 211, 255);
   color: rgb(0, 0, 0);
   font-size: 1.3rem;
+  -webkit-padding-top: 15px;
+  -webkit-margin-top: 2px;
+  -webkit-font-weight: bolder;
+  -webkit-background: rgb(251, 211, 255);
+  -webkit-color: rgb(0, 0, 0);
+  -webkit-font-size: 1.3rem;
 }
 .board_area ul li p:first-child {
   color: black;
@@ -335,8 +390,14 @@ h1  {
   font-size: 1.6rem;
   padding-top: 10px;
   margin-top: 0;
-  
   border: 4px solid rgb(22, 0, 19)   ;
+  
+  -webkit-color: black;
+  -webkit-font-weight: bolder;
+  -webkit-font-size: 1.6rem;
+  -webkit-padding-top: 10px;
+  -webkit-margin-top: 0;
+  -webkit-border: 4px solid rgb(22, 0, 19)   ;
 }
 .head{
   background-color: #3423a9;
@@ -367,6 +428,14 @@ grid-column: 2/3;
     overflow: hidden;
     background-image: radial-gradient(circle at 50% 45.08%, #5e0b88 0, #5e0b88 50%, #5e0b88 100%);
     border-radius: 5px;
+    -webkit-position: relative;
+    -webkit-width: 178px;
+    -webkit-height: 180px;
+    -webkit-border: none;
+    -webkit-margin-left: 10px;
+    -webkit-overflow: hidden;
+    -webkit-background-image: radial-gradient(circle at 50% 45.08%, #5e0b88 0, #5e0b88 50%, #5e0b88 100%);
+    -webkit-border-radius: 5px;
   }
   /* line 116, ../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
@@ -401,6 +470,15 @@ grid-column: 2/3;
     width: 50vw;
     transform: translateY(-20px);
     transition: background 1s;
+    -webkit-color: rgb(255, 255, 255);
+    -webkit-border-top: 5px solid white;  
+    -webkit-cursor: pointer;
+    -webkit-padding:  10px 50px 10px 50px;
+    -webkit-font-size: 1rem;
+    -webkit-text-align: center;
+    -webkit-width: 50vw;
+    -webkit-transform: translateY(-20px);
+    -webkit-transition: background 1s;
   }
   .btn_reset:hover    {
       background-color: white;
@@ -415,6 +493,12 @@ grid-column: 2/3;
     padding-top: 10px;
     font-weight: bold;
     font-size: 1.8rem;
+    
+    -webkit-background-image: radial-gradient(circle at 50% -20.71%, #ff0051 0, #ff0051 50%, #ff0051 100%);
+    -webkit-color: white;
+    -webkit-padding-top: 10px;
+    -webkit-font-weight: bold;
+    -webkit-font-size: 1.8rem;
   }
 }
 @media (min-height:700px)  {
@@ -446,11 +530,16 @@ h1  {
   color: white;
 }
 .container .roulette_area .roulette:after {
-    content: "\0020";
-    display: block;
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-content: "\0020";
+  -webkit-display: block;
+  -webkit-height: 0;
+  -webkit-overflow: hidden;
+  -webkit-visibility: hidden;
    }
   .container .roulette_area .roulette li .wrapper {
     top: 0;
@@ -464,6 +553,13 @@ h1  {
     font-size: 150px;
     padding: 15px 0;
     font-weight: bold;
+    -webkit-position: absolute;
+    -webkit-color: rgb(255, 255, 255);
+    -webkit-width: 180px;
+    -webkit-text-align: center;
+    -webkit-font-size: 150px;
+    -webkit-padding: 15px 0;
+    -webkit-font-weight: bold;
   }
 
 .roulette_area {
@@ -486,6 +582,19 @@ h1  {
     transition-timing-function: linear;
     transition: padding 1s;
     background-image: radial-gradient(circle at 50% 45.08%, #81088e 0, #81088e 50%, #81088e 100%);
+    -webkit-transform: translateY(40px);
+    -webkit-display: block;
+    -webkit-border-top: 5px solid white;
+    -webkit-cursor: pointer;
+    -webkit-color: white;
+    -webkit-margin: 0 auto;
+    -webkit-padding: 5px 50px;
+    -webkit-text-align: center;
+    -webkit-font-size: 1.4rem;
+    -webkit-width: 40vw;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition: padding 1s;
+    -webkit-background-image: radial-gradient(circle at 50% 45.08%, #81088e 0, #81088e 50%, #81088e 100%);
  }
   .btn_start:hover  {
     padding: 5px 100px ;
@@ -497,11 +606,6 @@ h1  {
     padding: 0 150px 0 150px;
   }
 
-  .roulette{
-    display: flex;
-    justify-content: center;
-    transform: translateY(30px);
-  }
   /* .board_area ul  {
     width: 100vw;
     border: 2px solid black;
@@ -509,15 +613,29 @@ h1  {
     grid-template-columns: 30% 70% ;
     grid-template-rows: repeat(5,100px);
   } */
+  .roulette{
+    display: flex;
+    justify-content: center;
+    transform: translateY(30px);
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-transform: translateY(30px);
+  }
   .board_area {
     display: block;
     width: 70%;
     margin: 5rem auto;
+    -webkit-display: block;
+    -webkit-width: 70%;
+    -webkit-margin: 5rem auto;
   }
   .board_area ul  {
     display:grid;
     grid-auto-flow: row;
     grid-template-rows: repeat(5,60px); 
+    -webkit-display:grid;
+    -webkit-grid-auto-flow: row;
+    -webkit-grid-template-rows: repeat(5,60px); 
   
 }
 .board_area ul li  {
@@ -527,6 +645,13 @@ h1  {
    grid-template-rows: 50px;
   grid-auto-flow: row; 
   grid-template-columns: repeat(16,60px);
+  -webkit-width: 100%;
+   -webkit-display: grid;
+   -webkit-text-align: center;
+   -webkit-grid-template-rows: 50px;
+  -webkit-grid-auto-flow: row; 
+  -webkit-grid-template-columns: repeat(16,60px);
+
 }
 .board_area ul li p {
   padding-top: 15px;
@@ -535,6 +660,12 @@ h1  {
   color: rgb(7, 7, 7);
   font-weight: bolder;
   font-size: 1.3rem;
+  -webkit-padding-top: 15px;
+  -webkit-margin-top: 2px;
+  -webkit-background: rgb(251, 211, 255);
+  -webkit-color: rgb(7, 7, 7);
+  -webkit-font-weight: bolder;
+  -webkit-font-size: 1.3rem;
 }
 .board_area ul li p:first-child {
   color: rgb(0, 0, 0);
@@ -542,8 +673,13 @@ h1  {
   font-size: 1.6rem;
   padding-top: 10px;
   margin-top: 0;
-  
   border: 4px solid rgb(22, 0, 19)   ;
+  -webkit-color: rgb(0, 0, 0);
+  -webkit-font-weight: bolder;
+  -webkit-font-size: 1.6rem;
+  -webkit-padding-top: 10px;
+  -webkit-margin-top: 0;
+  -webkit-border: 4px solid rgb(22, 0, 19)   ;
 }
 .head{
   background-color: #3423a9;
@@ -574,6 +710,14 @@ grid-column: 2/3;
     overflow: hidden;
     background-image: radial-gradient(circle at 50% 45.08%, #5e0b88 0, #5e0b88 50%, #5e0b88 100%);
      border-radius: 5px;
+     -webkit-position: relative;
+    -webkit-width: 178px;
+    -webkit-height: 180px;
+    -webkit-border: none;
+    -webkit-margin-left: 10px;
+    -webkit-overflow: hidden;
+    -webkit-background-image: radial-gradient(circle at 50% 45.08%, #5e0b88 0, #5e0b88 50%, #5e0b88 100%);
+     -webkit-border-radius: 5px;
   }
   /* line 116, ../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
@@ -588,6 +732,9 @@ grid-column: 2/3;
     width: 100%;
     height: 70px;
     background-color: white;
+    -webkit-width: 100%;
+    -webkit-height: 70px;
+    -webkit-background-color: white;
   }
   /* line 25, ../sass/style.scss */
   #header h1 {
@@ -596,6 +743,11 @@ grid-column: 2/3;
     transform: translateY(5px);
     font-size: 3rem;
     font-family: 'Akaya Telivigala', cursive;
+    -webkit-text-align: center;
+    -webkit-color: #000000;
+    -webkit-transform: translateY(5px);
+    -webkit-font-size: 3rem;
+    -webkit-font-family: 'Akaya Telivigala', cursive;
   }
   
   /* line 35, ../sass/style.scss */
@@ -609,6 +761,15 @@ grid-column: 2/3;
     width: 50vw;
     transform: translateY(-60px);
     transition: background 1s;
+    -webkit-color: rgb(255, 255, 255);
+    -webkit-border-top: 5px solid white;  
+    -webkit-cursor: pointer;
+    -webkit-padding:  10px 50px 10px 50px;
+    -webkit-font-size: 1rem;
+    -webkit-text-align: center;
+    -webkit-width: 50vw;
+    -webkit-transform: translateY(-60px);
+    -webkit-transition: background 1s;
   }
   .btn_reset:hover    {
       background-color: white;
@@ -622,5 +783,13 @@ grid-column: 2/3;
     padding-top: 10px;
     font-weight: bold;
     font-size: 1.8rem;
+    -webkit-color: white;
+    -webkit-padding-top: 10px;
+    -webkit-font-weight: bold;
+    -webkit-font-size: 1.8rem;
+    -ms-color: white;
+    -ms-padding-top: 10px;
+    -ms-font-weight: bold;
+    -ms-font-size: 1.8rem;
   }
   }
